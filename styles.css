@@ -1,0 +1,146 @@
+body {
+  background-color: #f1f1f1;
+  color:rgb(83, 83, 83);
+
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+font-weight: 600;
+
+}
+.avatar {
+    border-radius: 20px;
+    box-shadow: 4px 4px  15px rgba(83, 83, 83);
+}
+.info-text p {
+    color:#86898f;
+    margin: 0;
+font-style: italic;
+word-spacing: 1px;
+text-decoration:none;
+
+}
+
+.container {
+    width: 700px;
+    margin-left: 10%;
+    padding-top: 30px;
+}
+
+.social a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+  color:green; 
+  font-size: 25px;
+}
+
+.red {
+    background: #ffe5e5 ;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.yellow {
+    background: #fff9dc ;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.green {
+    background: #e5ffe7 ;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.list {
+    
+}
+
+.job{
+width: 100%;
+}
+.job td:nth-child(2),
+.job td:nth-child(3){
+color: black;
+}
+.card h2 {
+    padding-left: 20px;
+}
+
+.lists li {
+    list-style: none;
+    
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.contact h2 {
+    text-align: center;
+}
+
+.form label {
+    display: block;
+   
+    color: #86898f;
+    font-size: 20px;
+}
+
+.form input ,
+.form textarea{
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    box-sizing: content-box;
+    background: transparent;
+    padding: 15px 15px 15px 0px;
+    outline: none;
+    font-size: 20px;
+}
+
+.form label {
+    font-size: 22px;
+}
+.row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+
+.form {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+} 
+
+.info {
+    display: flex;
+    margin-left: 0px;
+}
+
+.info-text {
+    margin-left: 40px;
+    border: 2;
+}
+
+.mdn {
+ background: rgb(255, 215, 38); 
+    color: rgb(17, 17, 17);
+    padding: 15px 20px;
+    border: none;
+    margin-top: 10px;
+    opacity: 0.9;
+     cursor: pointer;
+}
+
+.mdn:hover {
+    opacity: 10;
+}
